@@ -1,0 +1,22 @@
+{
+  "geode": "4.6.0",
+  "gd": { "win": "2.2081", "android": "2.2081", "mac": "2.2081", "ios": "2.2081" },
+  "id": "tunombre.hackeliminar",
+  "name": "CBH help",
+  "version": "v1.5.0",
+  "developer": "TuNombre",
+  "description": "Corrige clicks tardios 1-2 frames. AVISO: este mod te saca del nivel al 98% y NO se puede desactivar. Es un mod troll/hardcore: no podras pasarte ningun nivel.",
+  "settings": {
+    "mode": {
+      "type": "string",
+      "name": "Modo",
+      "default": "Medio (2 frames)",
+      "one-of": ["Off", "Pro (1 frame)", "Medio (2 frames)", "Custom"]
+    },
+    "custom-frames": {
+      "type": "int",
+      "name": "Frames (Custom)",
+      "default": 3, "min": 1, "max": 10
+    }
+  }
+}
